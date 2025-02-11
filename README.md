@@ -3,6 +3,7 @@
 Proyecto desarrollado para CoderHouse donde usamos flex, bootstrap, media query.
 Utilice bootstrap de forma local.
 Usamos tambien SASS para generar nuestro archivo css.
+GitHub Page: https://gdlizarraga.github.io/coderhouse-tercer-entrega/
 
 El proyecto tiene 5 páginas:
 
