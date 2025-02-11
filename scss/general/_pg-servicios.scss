@@ -1,0 +1,25 @@
+/* pagina de servicios */
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.servicios__item {
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+}
+.servicios__img {
+  width: 20%;
+  float: left;
+  padding: 4px;
+}
+.servicios__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.servicios__texto {
+  width: 80%;
+  float: left;
+}

@@ -1,0 +1,46 @@
+//import variables
+@import "../utilidades/variables";
+//import mixin
+@import "../utilidades/mixin";
+
+@media screen and (max-width: 1200px) {
+  .productos {
+    @include grid(grid, repeat(2, 1fr));
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    a {
+      img {
+        border-right: none;
+      }
+    }
+  }
+  main {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .servicios__item {
+    flex: 1 1 calc(100% - 20px);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .productos {
+    @include grid(grid, repeat(1, 1fr));
+  }
+}
+@media screen and (max-width: 450px) {
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .servicios__img {
+    display: none;
+  }
+  .servicios__texto {
+    width: 90%;
+    float: left;
+  }
+}

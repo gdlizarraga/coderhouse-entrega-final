@@ -1,0 +1,86 @@
+//import variables
+@import "../utilidades/variables";
+//import mixin
+@import "../utilidades/mixin";
+
+/* estilos generales */
+
+body {
+  font-family: $family-font;
+  font-size: $size-font;
+  background-color: $color-bg;
+  color: #27445d;
+}
+
+header {
+  @include flex(flex, center, space-between);
+  background-color: $color-header-bg;
+
+  a {
+    img {
+      border-right: 4px solid $color-borde-header-imagen;
+    }
+  }
+  nav {
+    padding: 0.5rem;
+    width: 100%;
+    ul {
+      color: $color-font;
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      li {
+        a {
+          text-decoration: none;
+          color: #9fa2a4;
+        }
+        a:hover {
+          color: #cacbcc;
+        }
+      }
+    }
+  }
+}
+
+.ch-alert-primary {
+  background-color: $color-alert-bg;
+  color: $color-alert-font;
+  border: 1px solid $color-input-border-gb;
+}
+
+.ch-alert-link {
+  color: $color-alert-link-font;
+}
+.ch-paleta {
+  cursor: pointer;
+}
+
+.ch-btn-primary {
+  background-color: $color-btn-gb;
+  color: $color-btn-font;
+  border: 1px solid $color-input-border-gb;
+}
+.ch-btn-primary:hover {
+  background-color: $color-btn-hover-font;
+  color: $color-btn-font;
+  border: 1px solid $color-input-border-hover-gb;
+}
+
+.link_active {
+  color: $color-link-active;
+}
+
+main {
+  @include flex(flex, center, center);
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  flex-direction: column;
+  flex: 1;
+
+  div {
+    width: 100%;
+  }
+}

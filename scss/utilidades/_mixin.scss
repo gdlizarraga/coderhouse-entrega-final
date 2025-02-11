@@ -1,0 +1,11 @@
+//mixin con parametros
+@mixin flex($display, $align, $justify) {
+  display: $display;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin grid($display, $columns) {
+  display: $display;
+  grid-template-columns: $columns;
+}

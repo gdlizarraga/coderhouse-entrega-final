@@ -1,0 +1,13 @@
+//import variables
+@import "../utilidades/variables";
+
+footer {
+  text-align: center;
+  color: $color-footer-font;
+  margin-top: 1.5;
+  background-color: $color-footer-bg;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

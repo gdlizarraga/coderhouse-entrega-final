@@ -1,0 +1,41 @@
+//import variables
+@import "../utilidades/variables";
+//import mixin
+@import "../utilidades/mixin";
+
+/* pagina de contacto */
+form {
+  @include grid(grid, 1fr);
+  gap: 10px;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $color-input-border-gb;
+    border-radius: 4px;
+    color: $color-input-font;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: $color-form-btn-bg;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid $color-input-border-gb;
+  }
+  button:hover {
+    background-color: $color-form-btn-hover-bg;
+    border: 1px solid $color-input-border-hover-gb;
+  }
+}
+.espacio_footer {
+  height: 2rem;
+}

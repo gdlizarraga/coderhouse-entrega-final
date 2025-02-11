@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noticia - Segunda Entrega</title>
+    <link
+      href="packages/bootstrap-5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="img/logo.png" alt="Logo de la empresa" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="alert alert-primary ch-alert-primary" role="alert">
+        Haga click
+        <a
+          href="https://github.com/gdlizarraga/coderhouse-tercer-entrega/blob/main/README.md"
+          target="_blank"
+          class="alert-link ch-alert-link"
+          >aqui</a
+        >
+        para que pueda leer el readme.md donde explico que se uso en cada una de
+        las paginas.<br />
+        Haga click
+        <a
+          class="alert-link ch-alert-link ch-paleta"
+          data-bs-toggle="modal"
+          data-bs-target="#paletaColores"
+          >aqui</a
+        >
+        para conocer la paleta de colores que se utilizó.
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="paletaColores"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Paleta de Colores utilizada
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <center>
+                <img
+                  src="img/paleta.png"
+                  class="img-fluid"
+                  alt="paleta utilizada"
+                />
+              </center>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-12">
+            <h1>Noticias</h1>
+            <p class="fw-lighter">
+              En este apartado se muestran las últimas noticias de la semana.
+            </p>
+            <hr class="solid" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Innovación en el transporte sostenible
+                </h5>
+                <p class="card-text fw-lighter">
+                  Una startup argentina lanzó un sistema de transporte eléctrico
+                  que promete reducir emisiones en un 70%. El proyecto busca
+                  expandirse a nivel nacional y fomentar el uso de energías
+                  renovables. Se espera que esté operativo en las principales
+                  ciudades para 2026.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Impactante hallazgo arqueológico</h5>
+                <p class="card-text fw-lighter">
+                  Un equipo de arqueólogos descubrió restos de una civilización
+                  precolombina en Salta. Los objetos encontrados incluyen
+                  cerámica y herramientas que datan de hace 1.000 años. Este
+                  hallazgo podría cambiar la comprensión sobre las culturas del
+                  noroeste argentino.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Crisis hídrica en aumento</h5>
+                <p class="card-text fw-lighter">
+                  Provincias argentinas enfrentan una sequía histórica que
+                  afecta la producción agrícola. Autoridades analizan medidas
+                  para mitigar el impacto, mientras expertos llaman a un uso más
+                  eficiente del agua. Prevén más restricciones en los próximos
+                  meses.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">La selección argentina brilla</h5>
+                <p class="card-text fw-lighter">
+                  La selección argentina de fútbol venció 3-0 a su rival en un
+                  amistoso internacional. Con goles de Messi, Álvarez y De Paul,
+                  el equipo mostró un juego sólido y continúa preparándose para
+                  el Mundial 2026. Scaloni destacó la unidad del grupo en
+                  conferencia de prensa.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Incremento en la adopción de mascotas
+                </h5>
+                <p class="card-text fw-lighter">
+                  Las adopciones de perros y gatos aumentaron un 30% en
+                  Argentina durante 2024, según datos de refugios locales. La
+                  tendencia refleja una mayor conciencia sobre el bienestar
+                  animal y la necesidad de brindar un hogar a los animales
+                  abandonados.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Apertura del Festival de Cine</h5>
+                <p class="card-text fw-lighter">
+                  Comenzó el reconocido Festival de Cine de Mar del Plata con la
+                  proyección de una película argentina nominada a premios
+                  internacionales. El evento contará con la participación de
+                  destacados directores y actores. Las entradas ya están
+                  agotadas.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Avances en la vacuna contra el dengue
+                </h5>
+                <p class="card-text fw-lighter">
+                  Científicos argentinos lograron avances significativos en el
+                  desarrollo de una vacuna contra el dengue. Las pruebas
+                  iniciales muestran un 85% de efectividad. Este avance podría
+                  ser clave para reducir los brotes en América Latina y Asia.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nueva normativa laboral</h5>
+                <p class="card-text fw-lighter">
+                  El Congreso aprobó ley que establece jornadas laborales de 36
+                  horas. El objetivo es mejorar la calidad de vida de los
+                  trabajadores y fomentar el empleo juvenil. Sindicatos
+                  celebraron la medida, mientras empresarios piden incentivos
+                  para su implementación.
+                </p>
+                <a
+                  href="pages/mas_info.html"
+                  class="btn btn-primary ch-btn-primary"
+                  >Más Información</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix">...</div>
+    </main>
+
+    <footer>
+      <div class="container-fluid text-center fixed-bottom text-bg-secondary">
+        <div class="row">
+          <div class="col">Todos los derechos reservados</div>
+        </div>
+      </div>
+    </footer>
+    <script src="packages/jquery-3.7.1.slim.min.js"></script>
+    <script src="packages/bootstrap-5.3.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
