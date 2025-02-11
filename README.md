@@ -1,4 +1,4 @@
-# CoderHouse Proyecto
+# CoderHouse Proyecto - Tercer Entrega
 
 Proyecto desarrollado para CoderHouse donde usamos flex, bootstrap, media query.
 Utilice bootstrap de forma local.
