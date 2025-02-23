@@ -1,9 +1,12 @@
-# CoderHouse Proyecto - Tercer Entrega
+# CoderHouse Proyecto - Entrega Final
 
 Proyecto desarrollado para CoderHouse donde usamos flex, bootstrap, media query.
 Utilice bootstrap de forma local.
 Usamos tambien SASS para generar nuestro archivo css.
-GitHub Page: https://gdlizarraga.github.io/coderhouse-tercer-entrega/
+Usamos SEO en paginas
+
+GitHub Page: https://gdlizarraga.github.io/coderhouse-entrega-final/
+Server netlify: https://scintillating-gaufre-4a9ccf.netlify.app/
 
 Utice https://michalsnik.github.io/aos/ como pagina para animaciones
 
