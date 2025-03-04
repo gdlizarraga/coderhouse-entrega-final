@@ -6,9 +6,10 @@ Usamos tambien SASS para generar nuestro archivo css.
 Usamos SEO en paginas
 
 GitHub Page: https://gdlizarraga.github.io/coderhouse-entrega-final/
+
 Server netlify: https://scintillating-gaufre-4a9ccf.netlify.app/
 
-Utice https://michalsnik.github.io/aos/ como pagina para animaciones
+Utilice https://michalsnik.github.io/aos/ como pagina para animaciones
 
 El proyecto tiene 5 páginas:
 
